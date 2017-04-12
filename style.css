@@ -2,4 +2,59 @@
   padding: 0;
   margin: 0;
   font-family: 'Karla', sans-serif;
+  color: #484848;
+  font-weight: lighter;
+}
+header {
+  display: flex;
+  flex-flow: wrap;
+
+}
+
+.logo {
+  width: 100px;
+  padding: 24px;
+}
+.logo img {
+  width: 30%;
+}
+
+.navpc, .navtab,form {
+  display: none;
+}
+
+
+h1 {
+  font-size: 25px;
+  line-height: 30px;
+  margin-top: 7px;
+  margin-left: 24px;
+  width : 87%;
+
+
+}
+
+
+h1 span {
+  color: #FF5A5F;
+  font-weight: 700;
+}
+
+button {
+  width: 87%;
+  height: 45px;
+
+  padding-bottom: 10px;
+  background-color: white;
+  margin : 50px 0 50px 24px;
+  border-radius: 6px;
+  border: 1px solid #d3d3d3;
+  font-size: 15px;
+
+
+}
+
+button i {
+  position: relative;
+  top: 10px;
 }
