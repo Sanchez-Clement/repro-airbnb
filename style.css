@@ -460,7 +460,71 @@ img[src$="tab.jpg"] {
   margin-right: auto;
 }
 
+/********************************************footer******************************/
 
+.apropos {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.devise {
+  width: 115px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.langue,.dev {
+  margin: 0;
+  width: 100%
+}
+
+.langue {
+  margin-bottom: 15px;
+}
+
+.apropos ul {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 115px;
+}
+
+.apropos ul li:first-child {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 15px;
+
+}
+
+.copyright, footer nav {
+  display: inline-block;
+}
+
+.copyright {
+  width: 43%;
+  margin-left: 44px;
+  height: 85px;
+}
+
+footer nav  {
+  width: 44%;
+
+
+
+}
+
+footer nav ul {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  border-top : 1px solid lightgrey;
+  padding-top: 20px;
+
+}
 
 
 
