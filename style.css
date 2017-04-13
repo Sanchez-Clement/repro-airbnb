@@ -103,7 +103,7 @@ main nav ul li:first-child {
   border-bottom: 2px solid #008489;
 }
 
-.destination, .experience, .logements {
+.reservees,.destination, .experience, .logements {
   position: relative;
   overflow: scroll;
 
