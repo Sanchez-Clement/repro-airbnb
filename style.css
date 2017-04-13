@@ -103,7 +103,7 @@ main nav ul li:first-child {
   border-bottom: 2px solid #008489;
 }
 
-section {
+.destination, .experience, .logements {
   position: relative;
   overflow: scroll;
 
@@ -221,7 +221,9 @@ figcaption {
 
 .revenu img {
   order: -1;
-  margin-left: 0;
+  position: relative;
+  right : 24px;
+  width: 107%;
 
 
 }
