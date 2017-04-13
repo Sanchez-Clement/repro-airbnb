@@ -122,6 +122,9 @@ main nav ul li:first-child {
   align-items: flex-end;
 
 
+
+
+
 }
 
 .gal3 ,.gal4 {
@@ -335,4 +338,76 @@ width: 100%
 
  footer nav ul li:hover {
    text-decoration: underline;
+ }
+
+ /**********************************************************************tablette********************************/
+@media  (min-width: 786px){
+
+   h1 {
+     font-size: 48px;
+     line-height: 56px;
+     width: 90%;
+     margin-top: 30px;
+   }
+
+   .navtab {
+     display: block;
+     margin-top: 60px;
+     width: 100%;
+     margin-bottom: 50px;
+
+   }
+
+   header button {
+     display:none;
+    }
+
+
+    .navtab li {
+      display: inline-block;
+      width: 28%;
+      border : 1px solid lightgrey;
+      height: 30px;
+      vertical-align: top;
+      padding: 10px;
+      font-weight: bold;
+      font-size: 20px;
+
+
+    }
+
+    .navtab i {
+      margin-right: 10px;
+    }
+
+
+
+    .navtab li:first-child {
+      margin-left: 24px;
+      position: relative;
+      left : 5px;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+
+    }
+
+    .navtab li:first-child a , .navtab li:nth-child(3) a{
+      position: relative;
+      bottom: 4px;
+    }
+
+    .navtab li:first-child i, .navtab li:nth-child(3) i {
+      position: relative;
+      top: 5px;
+    }
+
+    .navtab li:nth-child(3) {
+      position: relative;
+      right: 5px;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+
+
+
  }
