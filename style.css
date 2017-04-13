@@ -68,7 +68,7 @@ button i {
 /***************************************************main *************************************/
 main {
 
-  margin-left: 24px;
+margin-left: 24px;
 display: flex;
 flex-wrap: wrap;
 
@@ -118,13 +118,34 @@ section {
   display: flex;
   width: 810px;
   justify-content: space-between;
-
-
   height: 415px;
   align-items: flex-end;
 
 
 }
+
+.gal3 ,.gal4 {
+  display: flex;
+  width: 648px;
+  justify-content: space-between;
+  align-items: flex-end;
+
+}
+
+.gal3 {
+  height: 330px;
+}
+
+.gal4 {
+  height: 275px;
+}
+
+
+
+/*.gal4 {
+  display: flex;
+  w
+}*/
 
 h2 {
   font-size: 20px;
@@ -137,7 +158,7 @@ h2, section a {
   display: inline-block;
 }
 
-section a {
+main section a {
   position: absolute;
   right: 2%;
   top : 45px;
@@ -156,6 +177,16 @@ section a i {
   height: 340px;
   width: 150px;
 
+}
+
+.logements figure {
+  width: 204px;
+  height: 250px;
+}
+
+.destination figure {
+  width :96px;
+  height: 200px;
 }
 
 figcaption, .commentaire i{
@@ -179,4 +210,49 @@ figcaption {
   font-size: 17px;
   font-weight: 700;
   margin-right: 2px;
+}
+
+.revenu {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-top: 80px;
+  width: 100%
+}
+
+.revenu img {
+  order: -1;
+  margin-left: 0;
+
+
+}
+
+.estimer h3 {
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 700;
+  width: 98%;
+  letter-spacing: -0.6px;
+  margin-top: 20px;
+}
+
+.estimer p {
+  font-size: 19px;
+  font-weight: 200;
+  line-height: 24px;
+  width: 98%;
+  margin-top: 15px;
+}
+
+#estimer {
+  width: auto;
+  border-radius: 4px;
+  background-color: #008489;
+  color: white;
+  padding: 5px;
+  height: 36px;
+  font-weight: bold;
+  margin : 20 0 40 0;
+  position: relative;
+  right : 24px;
+  bottom: 30px;
 }
