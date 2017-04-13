@@ -145,10 +145,7 @@ main nav ul li:first-child {
 
 
 
-/*.gal4 {
-  display: flex;
-  w
-}*/
+
 
 h2 {
   font-size: 20px;
@@ -422,6 +419,26 @@ img[src$="tab.jpg"] {
 .gal1 figure, .gal2 figure {
   width: 176px;
   height: 380px;
+}
+
+.gal3 {
+  width : 1152px;
+  height : 420px;
+}
+
+.gal3 figure {
+  width: 368px;
+  height: 335px;
+}
+
+.gal4 {
+  width :1152px;
+  height : 383px;
+}
+
+.gal4 figure {
+  width : 176px;
+  height : 300px;
 }
 
 
