@@ -342,7 +342,7 @@ width: 100%
 
  /**********************************************************************tablette********************************/
 @media  (min-width: 786px){
-
+/******************************************header****************************/
    h1 {
      font-size: 48px;
      line-height: 56px;
@@ -358,7 +358,7 @@ width: 100%
 
    }
 
-   header button {
+   header button,img[src$="phone.jpg"] {
      display:none;
     }
 
@@ -407,6 +407,23 @@ width: 100%
       border-top-right-radius: 5px;
       border-bottom-right-radius: 5px;
     }
+
+/************************************main***************************************/
+
+img[src$="tab.jpg"] {
+  display: inline-block;
+}
+
+.gal1, .gal2 {
+  width: 960px;
+  height: 450px;
+}
+
+.gal1 figure, .gal2 figure {
+  width: 176px;
+  height: 380px;
+}
+
 
 
 
