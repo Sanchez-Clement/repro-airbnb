@@ -441,6 +441,28 @@ img[src$="tab.jpg"] {
   height : 300px;
 }
 
+.revenu {
+  flex-flow: row nowrap;
+
+
+}
+
+.revenu img {
+  order: 1;
+  width: 49%;
+  height: 64%;
+  top: 34px;
+
+}
+
+.estimer {
+  width: 40%;
+  margin-right: auto;
+}
+
+
+
+
 
 
 
