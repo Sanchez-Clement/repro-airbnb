@@ -25,7 +25,7 @@ header {
   width: 30%;
 }
 
-.navpc, .navtab,form,img[src$="pc.jpg"], img[src$="tab.jpg"], .suivant {
+.navpc, .navtab,form,img[src$="pc.jpg"], img[src$="tab.jpg"], .suivant, .apropos ul {
   display: none;
 }
 
@@ -256,3 +256,81 @@ figcaption {
   right : 24px;
   bottom: 30px;
 }
+
+/***********************************************footer**********************************/
+footer {
+  height: 265px;
+  border-top: 1px solid lightgrey;
+
+  width: 100%;
+  color : #767676;
+}
+
+
+
+.devise {
+  height: 120px;
+
+width: 100%
+  display: inline-block;
+  vertical-align: top;
+}
+
+.langue {
+  margin: 24px 12px 24px 24px;
+  width: 40%;
+  height : 43%
+}
+
+.dev {
+  width : 35%;
+  height: 40%
+}
+
+
+ footer select {
+   border: 1px solid #d3d3d3;
+   font-size: 20px;
+   background-color: white;
+
+
+ }
+
+ .copyright, footer nav {
+   width : 86%;
+   margin: auto;
+ }
+
+ .copyright {
+   padding-top: 10px;
+   border-top: 1px solid lightgrey;
+ }
+
+
+ .copyright img {
+   width: 9%;
+   display: inline-block;
+   position: relative;
+   top : 4px;
+ }
+
+ .copyright p {
+   width: 40%;
+   display: inline-block;
+   font-size: 17px;
+ }
+
+ footer nav ul {
+   width : 50%;
+   font-size: 14px;
+   margin-top: 5px;
+ }
+
+ footer nav ul li {
+   display: inline-block;
+   margin: 0 5px;
+ }
+
+ footer nav ul li:hover {
+   text-decoration: underline;
+ }
