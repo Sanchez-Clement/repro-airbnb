@@ -680,6 +680,33 @@ main {
   width: 166px;
 }
 
+.revenu img {
+  height: 100%;
+
+  top : -25px;
+}
+
+/***********************************************footer************************/
+.devise {
+  width: 220px;
+}
+
+.apropos {
+  width: 97%;
+}
+
+.copyright {
+  margin-left: 81px;
+}
+
+.copyright img {
+  width: 6%;
+}
+
+hr {
+  width: 86%;
+}
+
 
 
 
