@@ -521,13 +521,117 @@ footer nav ul {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-end;
-  border-top : 1px solid lightgrey;
+
   padding-top: 20px;
 
 }
 
+hr {
+  display: block;
+  width: 90%;
+  margin: auto;
+  border: 0.5px solid lightgrey
+}
+
+.copyright {
+  border: none;
+}
+
+/***************************************PC*************************************************/
+.navpc {
+  display: flex;
+  width: 34%;
+  height: 82px;
+
+}
+
+.navpc ul {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  justify-content: space-around;
+  height: 100%;
+  align-items: center;
+  font-size: 14px;
+
+}
+
+.navpc ul a {
+  font-weight:900;
+  padding-bottom: 10px;
+
+}
+
+.navpc ul a:hover {
+  border-bottom: 2px solid #008489;
+}
+
+.logo i {
+  display: none;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+h1 {
+  margin-left: 108px;
+
+  width: 50%;
+}
+
+.navtab {
+  display: none;
+}
+
+form, form button, form div {
+  display: flex;
+}
+
+form {
+  margin: 108px;
+  width: 100%;
+
+}
+
+form div {
+  flex-flow: column wrap;
+  width: 33%;
+  border : 1px solid lightgrey;
+  justify-content: center;
+  height: 80px;
+  padding: 10px;
+  border-radius: 4px;
+
+}
+
+form input {
+  background-color: white;
+  border: none;
+  font-size: 20px;
+  margin-top: 5px;
+}
 
 
 
+form div label {
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.voyageurs input {
+  width: 30%;
+
+}
+.voyageurs button {
+  width: 40%;
+  background-color: #FF5A5F;
+  color: white;
+  font-size: 19px;
+  font-weight: 900;
+  height: 40px;
+  padding: 5px;
+
+}
 
  }
