@@ -85,6 +85,8 @@ main nav ul {
 
 }
 
+
+
 .mainnav ul li {
   margin-right: 15px;
   text-transform: uppercase;
@@ -346,6 +348,15 @@ footer {
 
    }
 
+   main hr {
+     display: block;
+
+     border: 1px solid lightgrey;
+     width: 750px;
+
+
+   }
+
    header button,img[src$="phone.jpg"] {
      display:none;
   }
@@ -518,7 +529,7 @@ footer nav ul {
 
 }
 
-hr {
+ footer hr {
   display: block;
   width: 90%;
   margin: auto;
@@ -651,6 +662,13 @@ form div label {
 main {
   margin-left: 108px;
   margin-right: 108px;
+}
+
+main hr {
+
+  width: 1064px;
+
+
 }
 
 
