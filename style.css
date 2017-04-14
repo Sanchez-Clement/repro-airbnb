@@ -11,8 +11,19 @@ a {
 
 text-decoration: none;
 }
-header {
+
+header ,main , main nav ul, .gal1, .gal2, .gal3, .gal4, .revenu{
   display: flex;
+}
+
+.navpc, .navtab,form,img[src$="pc.jpg"], img[src$="tab.jpg"], .suivant, .apropos ul, hr {
+  display: none;
+}
+
+/****************************************************************Début du header**********************************************/
+
+header {
+
   flex-flow: wrap;
 
 }
@@ -25,18 +36,12 @@ header {
   width: 30%;
 }
 
-.navpc, .navtab,form,img[src$="pc.jpg"], img[src$="tab.jpg"], .suivant, .apropos ul {
-  display: none;
-}
-
 
 h1 {
   font-size: 25px;
   line-height: 30px;
-  margin-top: 7px;
-  margin-left: 24px;
+  margin: 7px 0 0 24px;
   width : 87%;
-
 
 }
 
@@ -49,7 +54,6 @@ h1 span {
 button {
   width: 87%;
   height: 45px;
-
   padding-bottom: 10px;
   background-color: white;
   margin : 50px 0 50px 24px;
@@ -64,25 +68,19 @@ button i {
   position: relative;
   top: 10px;
 }
-
+/******************************************Fin fu header*******************************************/
 /***************************************************main *************************************/
 main {
 
 margin-left: 24px;
-display: flex;
 flex-wrap: wrap;
 
 }
 
-main nav {
-  overflow: scroll;
-}
 
 main nav ul {
-  display: flex;
-  height: 25px;
 
-  position: relative;
+  height: 25px;
   margin-top: 30px;
 
 }
@@ -95,43 +93,39 @@ main nav ul {
   letter-spacing: 0.4px;
   font-size: 12px;
 
-
-
 }
+
 
 main nav ul li:first-child {
   border-bottom: 2px solid #008489;
 }
 
-.reservees,.destination, .experience, .logements {
-  position: relative;
+
+/******************galleries d'images**********************/
+.reservees,.destination, .experience, .logements, main nav {
+
   overflow: scroll;
-
-
 
 }
 
+.reservees,.destination, .experience, .logements, main nav ul, h2, section a i, .commentaire i, .revenu img, #estimer {
+  position: relative;
+}
 
-
+.gal1, .gal2, .gal3, .gal4 {
+ justify-content: space-between;
+ align-items: flex-end;
+}
 
 .gal1, .gal2 {
-  display: flex;
+
   width: 810px;
-  justify-content: space-between;
   height: 415px;
-  align-items: flex-end;
-
-
-
-
-
 }
 
 .gal3 ,.gal4 {
-  display: flex;
+
   width: 648px;
-  justify-content: space-between;
-  align-items: flex-end;
 
 }
 
@@ -145,12 +139,9 @@ main nav ul li:first-child {
 
 
 
-
-
 h2 {
   font-size: 20px;
   font-weight: 500;
-  position: relative;
   top : 45px;
 }
 
@@ -162,46 +153,46 @@ main section a {
   position: absolute;
   right: 2%;
   top : 45px;
-  font-size: 15px;
 }
 
 section a i {
-  position: relative;
   top: 8px;
 }
 
 
-
 .reservees figure, .experience figure {
-
   height: 340px;
   width: 150px;
 
 }
+
 
 .logements figure {
   width: 204px;
   height: 250px;
 }
 
+
 .destination figure {
   width :96px;
   height: 200px;
 }
 
-figcaption, .commentaire i{
+
+figcaption, .commentaire i, main section a{
   font-size: 15px;
 }
+
 
 figcaption {
   font-weight: 200;
   letter-spacing: 0.2px ;
 }
 
+
 .commentaire i {
   color: #00A699;
   margin-right: 3px;
-  position: relative;
   top : 2px;
 }
 
@@ -213,7 +204,7 @@ figcaption {
 }
 
 .revenu {
-  display: flex;
+
   flex-flow: column nowrap;
   margin-top: 80px;
   width: 100%
@@ -221,7 +212,6 @@ figcaption {
 
 .revenu img {
   order: -1;
-  position: relative;
   right : 24px;
   width: 107%;
 
@@ -254,16 +244,21 @@ figcaption {
   height: 36px;
   font-weight: bold;
   margin : 20 0 40 0;
-  position: relative;
   right : 24px;
   bottom: 30px;
 }
 
+/*************************************************fin du main**********************************/
+
 /***********************************************footer**********************************/
+.devise, .copyright img, .copyright p, footer nav ul li {
+  display: inline-block;
+}
+
+
 footer {
   height: 265px;
   border-top: 1px solid lightgrey;
-
   width: 100%;
   color : #767676;
 }
@@ -272,9 +267,7 @@ footer {
 
 .devise {
   height: 120px;
-
-width: 100%
-  display: inline-block;
+  width: 100%
   vertical-align: top;
 }
 
@@ -294,14 +287,14 @@ width: 100%
    border: 1px solid #d3d3d3;
    font-size: 20px;
    background-color: white;
-
-
  }
+
 
  .copyright, footer nav {
    width : 86%;
    margin: auto;
  }
+
 
  .copyright {
    padding-top: 10px;
@@ -311,14 +304,13 @@ width: 100%
 
  .copyright img {
    width: 9%;
-   display: inline-block;
    position: relative;
    top : 4px;
  }
 
+
  .copyright p {
    width: 40%;
-   display: inline-block;
    font-size: 17px;
  }
 
@@ -329,16 +321,15 @@ width: 100%
  }
 
  footer nav ul li {
-   display: inline-block;
    margin: 0 5px;
  }
 
  footer nav ul li:hover {
    text-decoration: underline;
  }
-
+/*******************************************************************fin du footer ************************************/
  /**********************************************************************tablette********************************/
-@media  (min-width: 786px){
+@media  (min-width: 768px){
 /******************************************header****************************/
    h1 {
      font-size: 48px;
@@ -357,10 +348,10 @@ width: 100%
 
    header button,img[src$="phone.jpg"] {
      display:none;
-    }
+  }
 
 
-    .navtab li {
+  .navtab li {
       display: inline-block;
       width: 28%;
       border : 1px solid lightgrey;
@@ -371,40 +362,42 @@ width: 100%
       font-size: 20px;
 
 
-    }
+  }
 
-    .navtab i {
+.navtab i {
       margin-right: 10px;
-    }
+  }
 
 
+.navtab li:first-child, .navtab li:first-child a , .navtab li:nth-child(3) a, .navtab li:first-child i, .navtab li:nth-child(3) i, .navtab li:nth-child(3) {
+  position: relative;
+}
 
-    .navtab li:first-child {
-      margin-left: 24px;
-      position: relative;
-      left : 5px;
-      border-top-left-radius: 5px;
-      border-bottom-left-radius: 5px;
 
-    }
+.navtab li:first-child {
+    margin-left: 24px;
+    left : 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 
-    .navtab li:first-child a , .navtab li:nth-child(3) a{
-      position: relative;
-      bottom: 4px;
-    }
+  }
 
-    .navtab li:first-child i, .navtab li:nth-child(3) i {
-      position: relative;
-      top: 5px;
-    }
+.navtab li:first-child a , .navtab li:nth-child(3) a{
+    bottom: 4px;
+  }
 
-    .navtab li:nth-child(3) {
-      position: relative;
-      right: 5px;
-      border-top-right-radius: 5px;
-      border-bottom-right-radius: 5px;
-    }
+.navtab li:first-child i, .navtab li:nth-child(3) i {
 
+    top: 5px;
+  }
+
+.navtab li:nth-child(3) {
+
+    right: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+/************************************fin du header*********************************/
 /************************************main***************************************/
 
 img[src$="tab.jpg"] {
@@ -444,7 +437,6 @@ img[src$="tab.jpg"] {
 .revenu {
   flex-flow: row nowrap;
 
-
 }
 
 .revenu img {
@@ -461,19 +453,20 @@ img[src$="tab.jpg"] {
 }
 
 /********************************************footer******************************/
+.apropos, .devise, .apropos ul, footer nav ul {
+  display: flex;
+}
+
 
 .apropos {
   width: 100%;
-  display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 50px 0 50px 0;
 }
 
 .devise {
   width: 115px;
-  display: flex;
   flex-flow: column nowrap;
 }
 
@@ -487,7 +480,6 @@ img[src$="tab.jpg"] {
 }
 
 .apropos ul {
-  display: flex;
   flex-flow: column nowrap;
   width: 115px;
 }
@@ -518,7 +510,7 @@ footer nav  {
 
 footer nav ul {
   width: 100%;
-  display: flex;
+
   flex-flow: row wrap;
   justify-content: flex-end;
 
@@ -540,17 +532,21 @@ hr {
 /***************************************PC*************************************************/
 @media (min-width :1100px) {
 
+  .navpc, .navpc ul, form, form button, form div {
+    display: flex;
+  }
+
 
 
 .navpc {
-  display: flex;
+
   width: 34%;
   height: 82px;
 
 }
 
 .navpc ul {
-  display: flex;
+
   flex-flow: row nowrap;
   width: 100%;
   justify-content: space-around;
@@ -592,9 +588,7 @@ h1 {
   display: none;
 }
 
-form, form button, form div {
-  display: flex;
-}
+
 
 form {
   margin: 108px;
