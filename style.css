@@ -536,8 +536,12 @@ hr {
 .copyright {
   border: none;
 }
-
+}
 /***************************************PC*************************************************/
+@media (min-width :1100px) {
+
+
+
 .navpc {
   display: flex;
   width: 34%;
@@ -566,8 +570,12 @@ hr {
   border-bottom: 2px solid #008489;
 }
 
-.logo i {
+.logo i,img[src$="tab.jpg"] {
   display: none;
+}
+
+img[src$="pc.jpg"] {
+  display: inline-block;
 }
 
 .logo {
@@ -633,5 +641,41 @@ form div label {
   padding: 5px;
 
 }
+
+/*********************************************main************************/
+
+main {
+  margin-left: 108px;
+  margin-right: 108px;
+}
+
+.mainav {
+  overflow: visible;
+}
+
+.reservees,.experience {
+  overflow: visible;
+}
+
+.gal1 {
+  width: 1040px;
+  margin-bottom: 30px;
+}
+.gal2 {
+  width: 1068px;
+}
+
+.ga1 figure, .gal2 figure {
+  width: 203.2px;
+
+}
+
+.gal1 figcaption {
+  width: 203.2px;
+}
+
+
+
+
 
  }
