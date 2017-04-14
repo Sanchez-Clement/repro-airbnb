@@ -267,7 +267,7 @@ footer {
 
 .devise {
   height: 120px;
-  width: 100%
+  width: 100%;
   vertical-align: top;
 }
 
@@ -452,6 +452,8 @@ img[src$="tab.jpg"] {
   margin-right: auto;
 }
 
+/***************************************fin du main********************************/
+
 /********************************************footer******************************/
 .apropos, .devise, .apropos ul, footer nav ul {
   display: flex;
@@ -510,10 +512,8 @@ footer nav  {
 
 footer nav ul {
   width: 100%;
-
   flex-flow: row wrap;
   justify-content: flex-end;
-
   padding-top: 20px;
 
 }
@@ -529,7 +529,10 @@ hr {
   border: none;
 }
 }
+/***************************fin du footer****************************************/
 /***************************************PC*************************************************/
+/***********************début du header****************************************/
+
 @media (min-width :1100px) {
 
   .navpc, .navpc ul, form, form button, form div {
@@ -593,17 +596,18 @@ h1 {
 form {
   margin: 108px;
   width: 100%;
+  border : 1px solid lightgrey;
+  border-radius: 4px;
 
 }
 
 form div {
   flex-flow: column wrap;
   width: 33%;
-  border : 1px solid lightgrey;
   justify-content: center;
   height: 80px;
   padding: 10px;
-  border-radius: 4px;
+
 
 }
 
@@ -612,6 +616,12 @@ form input {
   border: none;
   font-size: 20px;
   margin-top: 5px;
+}
+
+.quand {
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+
 }
 
 
@@ -635,8 +645,8 @@ form div label {
   padding: 5px;
 
 }
-
-/*********************************************main************************/
+/***************************************fin du header********************/
+/*********************************************début du main************************/
 
 main {
   margin-left: 108px;
@@ -680,7 +690,9 @@ main {
   top : -25px;
 }
 
-/***********************************************footer************************/
+/************************************fin du main ******************************/
+
+/***********************************************debut du footer************************/
 .devise {
   width: 220px;
 }
@@ -702,7 +714,6 @@ hr {
 }
 
 
-
-
-
  }
+
+/******************************************fin***********************************/

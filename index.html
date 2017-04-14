@@ -1,278 +1,303 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="fr">
+<head>
     <meta charset="utf-8">
     <title>airbnb</title>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://use.fontawesome.com/88840399dd.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+    <link rel="icon" href="images/logo.png">
 
-<script src="https://use.fontawesome.com/88840399dd.js"></script>
-<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+</head>
 
+<body>
+<!--===========================================debut du header============================================================ -->
+    <header>
 
-
-
-  </head>
-  <body>
-
-  <header>
-    <div class="logo">
-      <img src="images/pc/logo.pc.png" alt="logo airbnb"><i class="material-icons">keyboard_arrow_down</i>
-
-    </div>
-
-
-    <nav class="navpc">
-      <ul>
-        <li><a href="#">Devenir Hote</a></li>
-        <li><a href="#">Aide</a></li>
-        <li><a href="#">Inscription</a></li>
-        <li><a href="#">Connexion</a></li>
-      </ul>
-
-    </nav>
-    <h1><span>Où souhaitez-vous aller ? </span><br>Votre prochaine aventure commence sur Airbnb.</h1>
-    <form class="date" action="index.html" method="post">
-      <div class="ou">
-        <label for="">Où</label>
-        <input type="text" name="" value="" placeholder="Partout">
-
-      </div>
-      <div class="quand">
-        <label for="">Quand</label>
-        <input type="text" name="" value="" placeholder="Date indifférente">
-
-      </div>
-      <div class="voyageurs">
-        <label for="">Voyageurs</label>
-        <input type="text" name="" value="" placeholder="1 Voyageur">
-        <button type="button" name="button">Rechercher</button>
+      <div class="logo">
+        <img src="images/pc/logo.pc.png" alt="logo airbnb"><i class="material-icons">keyboard_arrow_down</i>
 
       </div>
 
 
-    </form>
-    <nav class="navtab">
-      <ul>
-        <li><a href="#"><i class="material-icons">search</i>Partout</a></li>
-        <li><a href="#"><i class="fa fa-calendar-o" aria-hidden="true"></i>Date indifférente</a></li>
-        <li><a href="#"><i class="material-icons">account_box</i>1 voyageur</a></li>
+      <nav class="navpc">
+        <ul>
+          <li><a href="#">Devenir Hote</a></li>
+          <li><a href="#">Aide</a></li>
+          <li><a href="#">Inscription</a></li>
+          <li><a href="#">Connexion</a></li>
+        </ul>
+      </nav>
 
-      </ul>
+      <h1><span>Où souhaitez-vous aller ? </span><br>Votre prochaine aventure commence sur Airbnb.</h1>
 
-    </nav>
-    <button type="button" name="button"><i class="material-icons">search</i>Partout - Dates indifférentes - 1 voy ...</button>
-  </header>
+      <form class="date" action="index.html" method="post">
 
-  <main>
-    <nav class="mainnav">
-      <ul>
-        <li><a href="#">Recommandé</a></li>
-        <li><a href="#">Logements</a></li>
-        <li><a href="#">Expériences</a></li>
-        <li><a href="#">Lieux</a></li>
-      </ul>
-    </nav>
+        <div class="ou">
+          <label for="ou">Où</label>
+          <input type="text" name="ou" id="ou" placeholder="Partout">
+        </div>
 
-    <section class="reservees">
-      <h2>Réservées à l'instant</h2>
-      <div class="gal1">
+        <div class="quand">
+          <label for="quand">Quand</label>
+          <input type="text" id="quand" name="quand" placeholder="Date indifférente">
+        </div>
 
-
-      <figure>
-        <img src="images/pc/gal1-photo1.pc.jpg" alt="">
-        <img src="images/tab/gal1-photo1.tab.jpg" alt="">
-        <img src="images/phone/gal1-photo1.phone.jpg" alt="">
-        <figcaption><span class="prix">66€</span>Sip your way through japan's national spirit <br><span class="commentaire"><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i>23 commentaires</span></figcaption>
-      </figure>
-      <figure>
-        <img src="images/pc/gal1-photo2.pc.jpg" alt="">
-        <img src="images/tab/gal1-photo2.tab.jpg" alt="">
-        <img src="images/phone/gal1-photo2.phone.jpg" alt="">
-        <figcaption><span class="prix">48€</span>Hop in a sidecar for a thrilling ride <br><span class="commentaire"><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i>3 commentaires</span></figcaption>
-      </figure>
-      <figure>
-        <img src="images/pc/gal1-photo3.pc.jpg" alt="">
-        <img src="images/tab/gal1-photo3.tab.jpg" alt="">
-        <img src="images/phone/gal1-photo3.phone.jpg" alt="">
-        <figcaption><span class="prix">39€</span>inspire and taste indigenious varieties <br><span class="commentaire"><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i>1 commentaire</span></figcaption>
-      </figure>
-      <figure>
-        <img src="images/pc/gal1-photo4.pc.jpg" alt="">
-        <img src="images/tab/gal1-photo4.tab.jpg" alt="">
-        <img src="images/phone/gal1-photo4.phone.jpg" alt="">
-        <figcaption><span class="prix">119€</span>Cooking class in the Countryside <br><span class="commentaire"><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i>21 commentaires</span></figcaption>
-      </figure>
-      <figure>
-        <img src="images/pc/gal1-photo5.pc.jpg" alt="">
-        <img src="images/tab/gal1-photo5.tab.jpg" alt="">
-        <img src="images/phone/gal1-photo5.phone.jpg" alt="">
-        <figcaption><span class="prix">75€</span>Indulge with local tapas with foodies <br><span class="commentaire"><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i>29 commentaires</span></figcaption>
-      </figure>
-      </div>
-      <i class="suivant" class="material-icons" >keyboard_arrow_right</i>
-
-    </section>
-
-    <section class="experience">
-      <h2>Expériences</h2>
-
-      <a href="#">Plus<i class="material-icons">keyboard_arrow_right</i></a>
-      <div class="gal2">
+        <div class="voyageurs">
+          <label for="voyageurs">Voyageurs</label>
+          <input type="text" id="voyageurs" name="voyageurs"  placeholder="1 Voyageur">
+          <button type="button" name="button">Rechercher</button>
+        </div>
 
 
+      </form>
 
-      <figure>
-        <img src="images/pc/gal2-photo1.pc.jpg" alt="">
-        <img src="images/tab/gal2-photo1.tab.jpg" alt="">
-        <img src="images/phone/gal2-photo1.phone.jpg" alt="">
-        <figcaption><span class="prix">58€</span>Teste vegan cheese and leanr to make your own <br><span class="commentaire"><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i>10 commentaires</span></figcaption>
-      </figure>
-      <figure>
-        <img src="images/pc/gal2-photo2.pc.jpg" alt="">
-        <img src="images/tab/gal2-photo2.tab.jpg" alt="">
-        <img src="images/phone/gal2-photo2.phone.jpg" alt="">
-        <figcaption><span class="prix">125€</span>get into the contempories art world <br><span class="commentaire"><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i>12 commentaires</span></figcaption>
-      </figure>
-      <figure>
-        <img src="images/pc/gal2.photo3.pc.jpg" alt="">
-        <img src="images/tab/gal2.photo3.tab.jpg" alt="">
-        <img src="images/phone/gal2.photo3.phone.jpg" alt="">
-        <figcaption><span class="prix">97€</span>Paint a portable mural with artits <br><span class="commentaire"><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i>13 commentaires</span></figcaption>
-      </figure>
-      <figure>
-        <img src="images/pc/gal2-photo4.pc.jpg" alt="">
-        <img src="images/tab/gal2-photo4.tab.jpg" alt="">
-        <img src="images/phone/gal2-photo4.phone.jpg" alt="">
-        <figcaption><span class="prix">146€</span>Design and create your own unique textil fabric <br><span class="commentaire"><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i>2 commentaires</span></figcaption>
-      </figure>
-      <figure>
-        <img src="images/pc/gal2-photo5.pc.jpg" alt="">
-        <img src="images/tab/gal2-photo5.tab.jpg" alt="">
-        <img src="images/phone/gal2-photo5.phone.jpg" alt="">
-        <figcaption><span class="prix">19€</span>get inside acces to SF's best venu <br><span class="commentaire"><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i>2 commentaires</span></figcaption>
-      </figure>
-      </div>
-      <i class="suivant" class="material-icons" >keyboard_arrow_right</i>
+      <nav class="navtab">
+        <ul>
+          <li><a href="#"><i class="material-icons">search</i>Partout</a></li>
+          <li><a href="#"><i class="fa fa-calendar-o" aria-hidden="true"></i>Date indifférente</a></li>
+          <li><a href="#"><i class="material-icons">account_box</i>1 voyageur</a></li>
+        </ul>
+      </nav>
 
-    </section>
+      <button type="button" name="button"><i class="material-icons">search</i>Partout - Dates indifférentes - 1 voy ...</button>
 
-    <section class="logements">
-      <h2>Logements</h2>
-      <a href="#">Plus<i class="material-icons">keyboard_arrow_right</i></a>
+    </header>
 
-      <div class="gal3">
+    <!--=================================================- fin du header =====================================================================-->
+<!--========================================================= debut du main =====================================================================-->
+    <main>
 
+      <nav class="mainnav">
+        <ul>
+          <li><a href="#">Recommandé</a></li>
+          <li><a href="#">Logements</a></li>
+          <li><a href="#">Expériences</a></li>
+          <li><a href="#">Lieux</a></li>
+        </ul>
+      </nav>
 
-      <figure>
-        <img src="images/pc/gal3-photo1.pc.jpg" alt="">
-        <img src="images/tab/gal3-photo1.tab.jpg" alt="">
-        <img src="images/phone/gal3-photo1.phone.jpg" alt="">
-        <figcaption><span class="prix">103€ The cozy palace</span> Chambre privée - 2 lits <br><span class="commentaire"><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i>379 commentaires</span></figcaption>
-      </figure>
+      <section class="reservees">
 
-      <figure>
-        <img src="images/pc/gal3-photo2.pc.jpg" alt="">
-        <img src="images/tab/gal3-photo2.tab.jpg" alt="">
-        <img src="images/phone/gal3-photo2.phone.jpg" alt="">
-        <figcaption><span class="prix">69€ Design et calme au coeur de la ville</span>logement entier - 1 lit <br><span class="commentaire"><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i>299 commentaires</span></figcaption>
-      </figure>
+        <h2>Réservées à l'instant</h2>
 
-      <figure>
-        <img src="images/pc/gal3-photo3.pc.jpg" alt="">
-        <img src="images/tab/gal3-photo3.tab.jpg" alt="">
-        <img src="images/phone/gal3-photo3.phone.jpg" alt="">
-        <figcaption><span class="prix">184€ 1 Sakura view gion area</span> Logement entier - 4 lits <br><span class="commentaire"><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i>237 commentaires</span></figcaption>
-      </figure>
-      </div>
-      <i class="suivant" class="material-icons" >keyboard_arrow_right</i>
+        <div class="gal1">
 
-    </section>
+          <figure>
+            <img src="images/pc/gal1-photo1.pc.jpg" alt="image d'illustration">
+            <img src="images/tab/gal1-photo1.tab.jpg" alt="image d'illustration">
+            <img src="images/phone/gal1-photo1.phone.jpg" alt="image d'illustration">
+            <figcaption><span class="prix">66€</span>Sip your way through japan's national spirit <br><span class="commentaire"><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i>23 commentaires</span></figcaption>
+          </figure>
 
-    <section class="destination">
-      <h2>Destinations à la une</h2>
-      <div class="gal4">
+          <figure>
+            <img src="images/pc/gal1-photo2.pc.jpg" alt="image d'illustration">
+            <img src="images/tab/gal1-photo2.tab.jpg" alt="image d'illustration">
+            <img src="images/phone/gal1-photo2.phone.jpg" alt="image d'illustration">
+            <figcaption><span class="prix">48€</span>Hop in a sidecar for a thrilling ride <br><span class="commentaire"><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i>3 commentaires</span></figcaption>
+          </figure>
+
+          <figure>
+            <img src="images/pc/gal1-photo3.pc.jpg" alt="image d'illustration">
+            <img src="images/tab/gal1-photo3.tab.jpg" alt="image d'illustration">
+            <img src="images/phone/gal1-photo3.phone.jpg" alt="image d'illustration">
+            <figcaption><span class="prix">39€</span>inspire and taste indigenious varieties <br><span class="commentaire"><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i>1 commentaire</span></figcaption>
+          </figure>
+
+          <figure>
+            <img src="images/pc/gal1-photo4.pc.jpg" alt="image d'illustration">
+            <img src="images/tab/gal1-photo4.tab.jpg" alt="image d'illustration">
+            <img src="images/phone/gal1-photo4.phone.jpg" alt="image d'illustration">
+            <figcaption><span class="prix">119€</span>Cooking class in the Countryside <br><span class="commentaire"><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i>21 commentaires</span></figcaption>
+          </figure>
+
+          <figure>
+            <img src="images/pc/gal1-photo5.pc.jpg" alt="image d'illustration">
+            <img src="images/tab/gal1-photo5.tab.jpg" alt="image d'illustration">
+            <img src="images/phone/gal1-photo5.phone.jpg" alt="image d'illustration">
+            <figcaption><span class="prix">75€</span>Indulge with local tapas with foodies <br><span class="commentaire"><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i>29 commentaires</span></figcaption>
+          </figure>
+
+        </div>
 
 
 
-      <figure>
-        <img src="images/pc/gal4-photo1.pc.jpg" alt="">
-        <img src="images/tab/gal4-photo1.tab.jpg" alt="">
-        <img src="images/phone/gal4-photo1.phone.jpg" alt="">
-        <figcaption><span class="prix">Los Angeles</span></figcaption>
-      </figure>
+      </section>
 
-      <figure>
-        <img src="images/pc/gal4-photo2.pc.jpg" alt="">
-        <img src="images/tab/gal4-photo2.tab.jpg" alt="">
-        <img src="images/phone/gal4-photo2.phone.jpg" alt="">
-        <figcaption><span class="prix">Tokyo</span></figcaption>
-      </figure>
-      <figure>
-        <img src="images/pc/gal4-photo3.pc.jpg" alt="">
-        <img src="images/tab/gal4-photo3.tab.jpg" alt="">
-        <img src="images/phone/gal4-photo3.phone.jpg" alt="">
-        <figcaption><span class="prix">Paris</span></figcaption>
-      </figure>
+      <section class="experience">
 
-      <figure>
-        <img src="images/pc/gal4-photo4.pc.jpg" alt="">
-        <img src="images/tab/gal4-photo4.tab.jpg" alt="">
-        <img src="images/phone/gal4-photo4.phone.jpg" alt="">
-        <figcaption><span class="prix">Florence</span></figcaption>
-      </figure>
+        <h2>Expériences</h2>
 
-      <figure>
-        <img src="images/pc/gal4-photo5.pc.jpg" alt="">
-        <img src="images/tab/gal4-photo5.tab.jpg" alt="">
-        <img src="images/phone/gal4-photo5.phone.jpg" alt="">
-        <figcaption><span class="prix">San francisco</span></figcaption>
-      </figure>
+        <a href="#">Plus<i class="material-icons">keyboard_arrow_right</i></a>
 
-      <figure>
-        <img src="images/pc/gal5-photo6.pc.jpg" alt="">
-        <img src="images/tab/gal5-photo6.tab.jpg" alt="">
-        <img src="images/phone/gal5-photo6.phone.jpg" alt="">
-        <figcaption><span class="prix">Londres</span></figcaption>
-      </figure>
+        <div class="gal2">
 
-      </div>
-      <i class="suivant" class="material-icons" >keyboard_arrow_right</i>
+          <figure>
+            <img src="images/pc/gal2-photo1.pc.jpg" alt="image d'illustration">
+            <img src="images/tab/gal2-photo1.tab.jpg" alt="image d'illustration">
+            <img src="images/phone/gal2-photo1.phone.jpg" alt="image d'illustration">
+            <figcaption><span class="prix">58€</span>Teste vegan cheese and leanr to make your own <br><span class="commentaire"><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i>10 commentaires</span></figcaption>
+          </figure>
 
-    </section>
+          <figure>
+            <img src="images/pc/gal2-photo2.pc.jpg" alt="image d'illustration">
+            <img src="images/tab/gal2-photo2.tab.jpg" alt="image d'illustration">
+            <img src="images/phone/gal2-photo2.phone.jpg" alt="image d'illustration">
+            <figcaption><span class="prix">125€</span>get into the contempories art world <br><span class="commentaire"><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i>12 commentaires</span></figcaption>
+          </figure>
 
-    <section class="revenu">
-      <article class="estimer">
-        <h3>Ouvrir la porte à un voyageur et à une nouvelle vie</h3>
-        <p>Complétez vos revenus en accueillant des voyageurs.</p>
-        <button id="estimer" type="button" name="button">Estimer mes revenus</button>
+          <figure>
+            <img src="images/pc/gal2.photo3.pc.jpg" alt="image d'illustration">
+            <img src="images/tab/gal2.photo3.tab.jpg" alt="image d'illustration">
+            <img src="images/phone/gal2.photo3.phone.jpg" alt="image d'illustration">
+            <figcaption><span class="prix">97€</span>Paint a portable mural with artits <br><span class="commentaire"><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i>13 commentaires</span></figcaption>
+          </figure>
 
-      </article>
+          <figure>
+            <img src="images/pc/gal2-photo4.pc.jpg" alt="image d'illustration">
+            <img src="images/tab/gal2-photo4.tab.jpg" alt="image d'illustration">
+            <img src="images/phone/gal2-photo4.phone.jpg" alt="image d'illustration">
+            <figcaption><span class="prix">146€</span>Design and create your own unique textil fabric <br><span class="commentaire"><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i>2 commentaires</span></figcaption>
+          </figure>
 
-      <img src="images/pc/revenus.pc.jpg" alt="">
-      <img src="images/tab/revenus.tab.jpg" alt="">
-      <img src="images/phone/revenus.phone.jpg" alt="">
+          <figure>
+            <img src="images/pc/gal2-photo5.pc.jpg" alt="image d'illustration">
+            <img src="images/tab/gal2-photo5.tab.jpg" alt="image d'illustration">
+            <img src="images/phone/gal2-photo5.phone.jpg" alt="image d'illustration">
+            <figcaption><span class="prix">19€</span>get inside acces to SF's best venu <br><span class="commentaire"><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i>2 commentaires</span></figcaption>
+          </figure>
+
+        </div>
 
 
 
-    </section>
+      </section>
+
+      <section class="logements">
+
+        <h2>Logements</h2>
+        <a href="#">Plus<i class="material-icons">keyboard_arrow_right</i></a>
+
+        <div class="gal3">
+
+
+          <figure>
+            <img src="images/pc/gal3-photo1.pc.jpg" alt="image d'illustration">
+            <img src="images/tab/gal3-photo1.tab.jpg" alt="image d'illustration">
+            <img src="images/phone/gal3-photo1.phone.jpg" alt="image d'illustration">
+            <figcaption><span class="prix">103€ The cozy palace</span> Chambre privée - 2 lits <br><span class="commentaire"><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i>379 commentaires</span></figcaption>
+          </figure>
+
+          <figure>
+            <img src="images/pc/gal3-photo2.pc.jpg" alt="image d'illustration">
+            <img src="images/tab/gal3-photo2.tab.jpg" alt="image d'illustration">
+            <img src="images/phone/gal3-photo2.phone.jpg" alt="image d'illustration">
+            <figcaption><span class="prix">69€ Design et calme au coeur de la ville</span>logement entier - 1 lit <br><span class="commentaire"><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i>299 commentaires</span></figcaption>
+          </figure>
+
+          <figure>
+            <img src="images/pc/gal3-photo3.pc.jpg" alt="image d'illustration">
+            <img src="images/tab/gal3-photo3.tab.jpg" alt="image d'illustration">
+            <img src="images/phone/gal3-photo3.phone.jpg" alt="image d'illustration">
+            <figcaption><span class="prix">184€ 1 Sakura view gion area</span> Logement entier - 4 lits <br><span class="commentaire"><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i>237 commentaires</span></figcaption>
+          </figure>
+
+        </div>
+
+
+
+      </section>
+
+      <section class="destination">
+
+        <h2>Destinations à la une</h2>
+
+        <div class="gal4">
+
+
+          <figure>
+            <img src="images/pc/gal4-photo1.pc.jpg" alt="image d'illustration">
+            <img src="images/tab/gal4-photo1.tab.jpg" alt="image d'illustration">
+            <img src="images/phone/gal4-photo1.phone.jpg" alt="image d'illustration">
+            <figcaption><span class="prix">Los Angeles</span></figcaption>
+          </figure>
+
+          <figure>
+            <img src="images/pc/gal4-photo2.pc.jpg" alt="image d'illustration">
+            <img src="images/tab/gal4-photo2.tab.jpg" alt="image d'illustration">
+            <img src="images/phone/gal4-photo2.phone.jpg" alt="image d'illustration">
+            <figcaption><span class="prix">Tokyo</span></figcaption>
+          </figure>
+
+          <figure>
+            <img src="images/pc/gal4-photo3.pc.jpg" alt="image d'illustration">
+            <img src="images/tab/gal4-photo3.tab.jpg" alt="image d'illustration">
+            <img src="images/phone/gal4-photo3.phone.jpg" alt="image d'illustration">
+            <figcaption><span class="prix">Paris</span></figcaption>
+          </figure>
+
+          <figure>
+            <img src="images/pc/gal4-photo4.pc.jpg" alt="image d'illustration">
+            <img src="images/tab/gal4-photo4.tab.jpg" alt="image d'illustration">
+            <img src="images/phone/gal4-photo4.phone.jpg" alt="image d'illustration">
+            <figcaption><span class="prix">Florence</span></figcaption>
+          </figure>
+
+          <figure>
+            <img src="images/pc/gal4-photo5.pc.jpg" alt="image d'illustration">
+            <img src="images/tab/gal4-photo5.tab.jpg" alt="image d'illustration">
+            <img src="images/phone/gal4-photo5.phone.jpg" alt="image d'illustration">
+            <figcaption><span class="prix">San francisco</span></figcaption>
+          </figure>
+
+          <figure>
+            <img src="images/pc/gal5-photo6.pc.jpg" alt="">
+            <img src="images/tab/gal5-photo6.tab.jpg" alt="">
+            <img src="images/phone/gal5-photo6.phone.jpg" alt="">
+            <figcaption><span class="prix">Londres</span></figcaption>
+          </figure>
+
+        </div>
+        
+      </section>
+
+      <section class="revenu">
+
+        <article class="estimer">
+          <h3>Ouvrir la porte à un voyageur et à une nouvelle vie</h3>
+          <p>Complétez vos revenus en accueillant des voyageurs.</p>
+          <button id="estimer" type="button" name="button">Estimer mes revenus</button>
+        </article>
+
+        <img src="images/pc/revenus.pc.jpg" alt="image d'illustration">
+        <img src="images/tab/revenus.tab.jpg" alt="image d'illustration">
+        <img src="images/phone/revenus.phone.jpg" alt="image d'illustration">
+
+
+
+      </section>
+
   </main>
-
+<!--=====================================================================fin du main =============================================================================-->
+<!--================================================================== debut du footer==========================================================================-->
   <footer>
 
     <section class="apropos">
 
       <div class="devise">
 
-        <select class="langue" name="">
+        <select class="langue" name="langue">
+
           <option value="">Francais</option>
           <option value="">Anglais</option>
           <option value="">Basque</option>
 
         </select>
 
-        <select class="dev" name="">
+        <select class="dev" name="name">
+
           <option value="">EUR</option>
           <option value="">GPB</option>
           <option value="">HKD</option>
@@ -313,7 +338,6 @@
     <div class="copyright">
       <img src="images/logo-gris.jpg" alt="">
       <p>© Airbnb, Inc.</p>
-
     </div>
 
     <nav>
@@ -326,8 +350,9 @@
         <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
       </ul>
     </nav>
-  </footer>
 
+  </footer>
+<!--========================================================== fin du footer ===================================================================================-->
 
   </body>
 </html>
