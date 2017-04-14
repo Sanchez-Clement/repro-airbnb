@@ -649,11 +649,9 @@ main {
   margin-right: 108px;
 }
 
-.mainav {
-  overflow: visible;
-}
 
-.reservees,.experience {
+
+.mainnav, .reservees,.experience, .logements, .destination {
   overflow: visible;
 }
 
@@ -661,7 +659,7 @@ main {
   width: 1040px;
   margin-bottom: 30px;
 }
-.gal2 {
+.gal2, .gal3, .gal4 {
   width: 1068px;
 }
 
@@ -672,6 +670,14 @@ main {
 
 .gal1 figcaption {
   width: 203.2px;
+}
+
+.gal3 figure {
+  width: 349px;
+}
+
+.gal4 figure {
+  width: 166px;
 }
 
 
